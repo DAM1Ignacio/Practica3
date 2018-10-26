@@ -30,6 +30,9 @@ public class Multiplo3 {
 		Scanner teclado = new Scanner(System.in);
 
 		System.out.println("Escribe el valor tope hasta el que quieres que se muestren multiplos de 2");
-		return teclado.nextInt();
+		int valor = teclado.nextInt();
+		
+		teclado.close();
+		return valor;
 	}
 }
