@@ -31,7 +31,7 @@ public class Multiplo3 {
 
 		System.out.println("Escribe el valor tope hasta el que quieres que se muestren multiplos de 2");
 		int valor = teclado.nextInt();
-		
+		int cambio;
 		teclado.close();
 		return valor;
 	}
