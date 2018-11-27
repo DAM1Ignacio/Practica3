@@ -8,17 +8,6 @@ import java.util.Scanner;
 
 public class CalcSalario {
 
-	public static double calcularSalario(double horas) {
-
-		double sueldo;
-		if (horas <= 35) {
-			sueldo = horas * 15;
-		} else {
-			sueldo = 35 * 15 + (horas - 35) * 22;
-		}
-		return sueldo;
-	}
-
 	public static void main(String[] args) {
 
 		Scanner teclado = new Scanner(System.in);
@@ -36,4 +25,21 @@ public class CalcSalario {
 
 		teclado.close();
 	}
+	
+	/**
+	 * 
+	 * @param horas
+	 * @return salario
+	 */
+	public static double calcularSalario(double horas) {
+
+		double sueldo;
+		if (horas <= 35) {
+			sueldo = horas * 15;
+		} else {
+			sueldo = 35 * 15 + (horas - 35) * 22;
+		}
+		return sueldo;
+	}
+
 }

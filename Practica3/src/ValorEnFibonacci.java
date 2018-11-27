@@ -1,10 +1,16 @@
 import java.util.Scanner;
 
+/**
+ * Devuelve el valor de un numero en la sucesion de fibonacci
+ * 
+ * @author nacho
+ *
+ */
 public class ValorEnFibonacci {
-	
+
 	static final int LIMITE_SUPERIOR = 76;
 	static final int LIMITE_INFERIOR = 0;
-	
+
 	public static void main(String[] args) {
 
 		Scanner teclado = new Scanner(System.in);
@@ -13,7 +19,6 @@ public class ValorEnFibonacci {
 		System.out.println(fibonacciA(teclado.nextInt()));
 
 		teclado.close();
-
 	}
 
 	private static int fibonacciA(int num) {

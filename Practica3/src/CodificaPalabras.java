@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * programa que codifica una informacion y la descodifica
+ * 
+ * @author nacho
+ *
+ */
 public class CodificaPalabras {
 
 	public static void main(String[] args) {

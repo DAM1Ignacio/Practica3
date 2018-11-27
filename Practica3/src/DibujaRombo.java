@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * programa que dibuja un rombo de unas determinadas lineas
+ * 
+ * @author nacho
+ *
+ */
 public class DibujaRombo {
 
 	public static void main(String[] args) {

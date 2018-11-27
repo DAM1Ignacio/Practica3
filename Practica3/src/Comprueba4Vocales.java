@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * programa que comprueba que una palabra lleve 4 bocales
+ * 
+ * @author nacho
+ *
+ */
 public class Comprueba4Vocales {
 
 	private static ArrayList<String> palabrasCon4Vocales = new ArrayList<String>();
